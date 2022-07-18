@@ -1,0 +1,125 @@
+{
+  "address": [
+    {
+      "address": "3eds",
+      "house_number": "asdasd",
+      "street_name": "1",
+      "ward": "1",
+      "district": "asdasdasd",
+      "province": "asdasd",
+      "city": "asdasd",
+      "evaluate_rate": "tamnda_update_true",
+      "comment": "asdasd",
+      "id": 3
+    },
+    {
+      "address": "3eds",
+      "house_number": "asdasd",
+      "street_name": "1",
+      "ward": "1",
+      "district": "asdasdasd",
+      "province": "asdasd",
+      "city": "asdasd",
+      "evaluate_rate": "tamnda_update_true",
+      "comment": "asdasd",
+      "id": 4
+    },
+    {
+      "address": "3eds",
+      "house_number": "asdasd",
+      "street_name": "1",
+      "ward": "1",
+      "district": "asdasdasd",
+      "province": "asdasd",
+      "city": "asdasd",
+      "evaluate_rate": "tamnda_update_true",
+      "comment": "asdasd",
+      "id": 7
+    },
+    {
+      "address": "3eds",
+      "house_number": "asdasd",
+      "street_name": "1",
+      "ward": "1",
+      "district": "asdasdasd",
+      "province": "asdasd",
+      "city": "asdasd",
+      "evaluate_rate": "tamnda_update_true",
+      "comment": "asdasd",
+      "id": 8
+    },
+    {
+      "address": "3eds",
+      "house_number": "asdasd",
+      "street_name": "1",
+      "ward": "1",
+      "district": "asdasdasd",
+      "province": "asdasd",
+      "city": "asdasd",
+      "evaluate_rate": "refurbished",
+      "comment": "asdasd",
+      "id": 9
+    },
+    {
+      "address": "3eds",
+      "house_number": "asdasd",
+      "street_name": "1",
+      "ward": "1",
+      "district": "asdasdasd",
+      "province": "asdasd",
+      "city": "asdasd",
+      "evaluate_rate": "refurbished",
+      "comment": "asdasd",
+      "id": 10
+    },
+    {
+      "address": "3eds",
+      "house_number": "asdasd",
+      "street_name": "1",
+      "ward": "1",
+      "district": "asdasdasd",
+      "province": "asdasd",
+      "city": "asdasd",
+      "evaluate_rate": "refurbished",
+      "comment": "asdasd",
+      "id": 11
+    },
+    {
+      "address": "3eds",
+      "house_number": "asdasd",
+      "street_name": "1",
+      "ward": "1",
+      "district": "asdasdasd",
+      "province": "asdasd",
+      "city": "asdasd",
+      "evaluate_rate": "refurbished",
+      "comment": "asdasd",
+      "id": 12
+    },
+    {
+      "address": "ssss",
+      "house_number": "ssss",
+      "street_name": "ssss",
+      "ward": "1",
+      "district": "s",
+      "city": "ss",
+      "evaluate_rate": "refurbished",
+      "comment": "sdfdfs",
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "address_text": {
+    "text": "Ki Ốt Số 1, Số 230 Đường Võ Nguyên Hiến, Khối 4, Phường Trường Thi, Tp Vinh, Nghệ An, Việt Nam",
+    "id":"55b7a22e-4b40-4247-97a2-aca3620ab420"
+  }
+}
