@@ -5,7 +5,7 @@ import { Injectable } from "@angular/core";
 
 export class ApiService {
 
-  constructor(private _http:HttpClient) { }
+  constructor(private _http: HttpClient) { }
 
   getText = () => {
     return this._http.get<any>("http://localhost:3000/address_text/")
@@ -18,17 +18,17 @@ export class ApiService {
   getProduct = () => {
     return this._http.get<any>("http://localhost:3000/address/")
   }
-  
-  putProduct = (data:any, id:number) => {
-    return this._http.put<any>("http://localhost:3000/address/"+id, data)
+
+  putProduct = (data: any, id: number) => {
+    return this._http.put<any>("http://localhost:3000/address/" + id, data)
   }
 
-  patchProduct = (data:any, id:number) => {
-    return this._http.patch<any>("http://localhost:3000/address/"+id, data)
+  patchProduct = (data: any, id: number) => {
+    return this._http.patch<any>("http://localhost:3000/address/" + id, data)
   }
 
-  deleteProduct = (id:number) => {
-    return this._http.delete<any>("http://localhost:3000/address/"+id)
+  deleteProduct = (id: number) => {
+    return this._http.delete<any>("http://localhost:3000/address/" + id)
   }
 
 }

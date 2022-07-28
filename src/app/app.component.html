@@ -2,7 +2,6 @@
   <mat-card-title style="margin-left: 2rem;">{{sentence_title}}</mat-card-title>
 </mat-card>
 <div id="form_container" style="overflow-y: scroll; height: 600px">
-
   <form [formGroup]="productForm" > 
     <div class="flex-container" *ngFor="let item of parseList" >
       <div class="text">{{item}}</div>

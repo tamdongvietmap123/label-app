@@ -14,11 +14,10 @@ export class AppComponent {
   actionBtn: string = "Save" // button render variable
   parseList!: string[] // sentences parsed => string 
   isSubmit!: boolean
-  sentence_title!:string
+  sentence_title!: string
 
   constructor(
     private _formBuilder: FormBuilder, private _apiService: ApiService) {
-
   }
 
   ngOnInit() {
@@ -37,7 +36,7 @@ export class AppComponent {
   private _createFromGroup = (resFromGetText: any) => {
     this.parseList = this.splitStr(resFromGetText.text)
     for (let item of this.parseList) {
-      this.productForm.addControl(item, new FormControl(`what is ${item}`, [Validators.required]))
+      this.productForm.addControl(item, new FormControl(`${item}`, [Validators.required]))
     }
   }
 
